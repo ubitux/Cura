@@ -3687,6 +3687,17 @@
                     "settable_per_meshgroup": false,
                     "settable_globally": false
                 },
+                "support_mesh":
+                {
+                    "label": "Support Mesh",
+                    "description": "Print this mesh as support. Merge with generated support and print with all settings for support areas.",
+                    "type": "bool",
+                    "default_value": false,
+                    "settable_per_mesh": true,
+                    "settable_per_extruder": false,
+                    "settable_per_meshgroup": false,
+                    "settable_globally": false
+                },
                 "overhang_mesh":
                 {
                     "label": "Overhang Mesh",
